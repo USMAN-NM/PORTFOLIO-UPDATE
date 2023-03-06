@@ -1,0 +1,115 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+width:900px;
+font-size: 1.6em;
+font-family: 'Varela Round', sans-serif;
+font-weight: bold;
+color: #6e859c;
+padding: 0;
+margin: 10px auto;
+background: #e8e9e9;
+;
+}
+.grid {
+max-width:900px;
+display:grid;
+margin: 45px auto;
+grid-template-columns:900px;
+grid-template-rows: 100vh;
+}
+
+.item {
+border-radius: 5px;
+background-color: lightcoral;
+border: solid 1px rgba(110,133,156,0.15);
+padding:20px 30px;
+}
+
+.main-nav::before {
+content:url(https://placeimg.com/80/80/people)
+}
+
+
+.main-nav {
+display:flex;
+flex-direction: row;
+max-width:900px;
+flex-basis:80px;
+background-color:white;
+box-shadow: inset rgba(110,133,156,0.15);
+justify-content: space-around;
+max-width:1000px;
+text-align: center;
+margin:40px auto;
+border:10px;
+padding:1.65em;
+border-radius:5px;
+
+}
+.main-img {
+height:50vh;
+width:900px;
+background-size:auto;
+position: center;
+}
+.frame-cont {
+display:grid;
+grid-template-columns: repeat(6, 2fr);
+grid-template-rows: 100px 100px 100px;
+
+}
+
+footer {
+display: block;
+text-align: center;
+padding: 3px;
+background-color:initial;
+}
+
+item-f , p {
+color:black;
+margin-bottom:10px;
+font-size: small;
+}
+form  {
+    font-family: 'Nunito', sans-serif;
+  color: #384047;
+max-width: 600px;
+margin:10px auto;
+height: auto;
+padding:10px 20px;
+background-color:antiquewhite;
+border-radius: 8px;
+
+}
+h1{
+text-align: center;
+background-color:lightskyblue;
+margin: 0 0 30px 0
+
+
+}
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+
